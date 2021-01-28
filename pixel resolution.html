@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>react</title>
+	<link rel="icon" href="indian.svg"/>
+	<style>
+		body{
+			background:#53b7de;
+		}
+		.parent{
+			display: flex;
+			flex-direction:row;
+			justify-content:space-between;
+			flex-wrap:wrap; 
+		}
+		.child{
+			border:1px solid rgb(3,123,145);
+			width:20%;	
+			font-size: 30px;
+			background: #AAA4EB;
+			color: #fff;
+			justify-content: space-between;
+			margin: 1%;
+			padding:1%;
+		}
+	@media only screen and (min-width: 320px) and (max-width: 480px)
+	{
+		.child{
+			width:40%;
+			font-size: 25px;
+			color:#F7160A;
+			background: #f39e0a;
+			border-radius: 5px;
+		}
+	}
+	@media only screen and (min-width: 481px) and (max-width: 720px)
+	{
+		.child{
+			width:40%;
+			font-size: 25px;
+			background:#2E1DEB;
+			color: #fff;
+			border:3px solid black;
+			border-radius: 20px;
+			box-shadow:3px 3px 3px #ddde30;
+		}
+	}
+	@media only screen and (min-width: 721px) and (max-width: 1024px)
+	{
+		.child{
+			width:25%;
+			color:#fff;
+			background:#ED3FD8;
+			border-radius: 5px;
+			box-shadow: 0px 8px 8px -8px #000;
+		}
+	}
+	</style>
+	<meta charset="utf-8"/>
+	<meta name='viewport' content='width=device-width,initial-scale=1.0'/>
+	
+</head>
+<body>
+	
+	<section class="parent">
+		<article class="child">US</article>
+		<article class="child">Germany</article>	
+		<article class="child">Russia</article>
+		<article class="child">Asia</article>
+		
+	</section>
+
+</body>
+</html>
