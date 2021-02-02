@@ -13,17 +13,14 @@
 |-----|------|------|
 |Minion|1|scene-stealer|
 
-# Ordered List
- a Ganga
- b ambika
- c suma
- d suneetha
- e nageswari
-
+# Ordered list
+ a.Ganga
+ b.ambika
+ c.suma
+ d.suneetha
 # Unordered list
 - Ganga
 - suma
 - suneetha
 - ambika
-- nageswari
 
